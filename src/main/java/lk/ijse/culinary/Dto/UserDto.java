@@ -1,19 +1,13 @@
-package lk.ijse.culinary.Entity;
+package lk.ijse.culinary.Dto;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Data
-@Entity
-@Table(name = "user")
-public class User {
-    @Id
+public class UserDto {
     private String user_id;
     private String username;
     private String password;

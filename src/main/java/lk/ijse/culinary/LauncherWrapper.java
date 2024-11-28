@@ -1,17 +1,18 @@
 package lk.ijse.culinary;
 
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import lk.ijse.culinary.Config.FactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import lk.ijse.culinary.Util.FactoryConfiguration;
-import javafx.application.Application;
 
 import java.io.IOException;
 
 public class LauncherWrapper extends Application {
+
     public static void main(String[] args) {
         launch(args);
     }

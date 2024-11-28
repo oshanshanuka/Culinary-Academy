@@ -1,4 +1,0 @@
-package lk.ijse.culinary.BO.Custom.Impl;
-
-public class UserBOImpl {
-}
